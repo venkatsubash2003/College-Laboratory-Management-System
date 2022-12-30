@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login page</title>
+    <link rel="stylesheet" href="loginstyle.css" />
+  </head>
+  <body>
+    <h1 style="background-color: #292826; color: #f9d342">
+      <center>MRCET</center>
+    </h1>
+    <div class="menu-bar">
+      <ul>
+        <li class="active">
+          <a href="index.html">Home</a>
+        </li>
+
+        <li><a href="laboratories.html">Laboratories</a></li>
+        <li><a href="achievements.html">Achievements</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="signin.html">Signup</a></li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <br /><br />
+    <center>
+      <img
+        src="mrcet.png"
+        alt="mrcet"
+        style="width: 410px; height: 210px; border: 3px solid #000000"
+        ;
+      />
+    </center>
+
+    <section class="sect">
+      <img src="index.png" alt="login" />
+      <h3>Haven't registered yet?</h3>
+      <br />
+
+      <button type="submit">
+        <a href="signin.html" class="reg">Register Now</a>
+      </button>
+      <br /><br />
+      <fieldset>
+        <legend>Enter Your Login Credentials:</legend>
+        <br />
+        <p>
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="username"
+            required
+          />
+        </p>
+        <br />
+        <p>
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="********"
+            required
+          />
+        </p>
+        <br />
+        <button type="submit" class="sub" onclick="login.php">Submit</button>
+        <button type="submit" class="forgot">Forgot Password</button>
+      </fieldset>
+      <br /><br />
+    </section>
+    <h3>
+      Go to official webiste...
+      <a class="anchor" href="https://mrcet.com/IT.html"> Click Here</a>
+    </h3>
+
+    <br /><br /><br />
+  </body>
+</html>
